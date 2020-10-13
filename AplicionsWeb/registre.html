@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+</head>
+
+<body>
+    <h1>Exercici, formulari de registre</h1>
+   <form action-"/name-server-somewhere" method-"post">
+    <div>
+        <label for-"name">Nom</label>
+        <input name"Nom" type-"text" id-"name"
+        <input id="Nom" type="text" required>
+        
+        <label for-"name">Llinatges</label>
+        <input name "Llinatges" type-"text" id-"name"
+        <input id="Llinatges" type="text" required>
+
+    </div>
+    <div>
+        <label for="radio-choice-1">Home:</label>
+    <input name=”option” type="radio" id="radio-choice-1" 
+value="choice-1" />
+    <label for="radio-choice-2">Dona:</label>
+    <input name=”option” type="radio" id="radio-choice-2" 
+value="choice-2" />
+<label for="radio-choice-3">Altre:</label>
+    <input name=”option” type="radio" id="radio-choice-3" 
+value="Altre" />
+    </div>
+    <div>
+        <label for-"name">Email</label>
+        <input name"Email" type-"text" id-"name"
+        <input type="email" name="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
+
+        <label for="name">Contrasenya</label>
+        <input name"password" type-"text" id-"name"
+        <input type="password" name="pass" pattern="[5-10]">
+    </div>
+    <div>
+        <label for-"name">Data de naiximent</label>
+        <input name"Data-de-naiximent" type-"text" id-"name"
+        <input type="date" name="data"
+    </div>
+    <div>
+        <label for-"name">Estic d'acord amb els termes i condicions</label>
+        <input type="checkbox" name="checkbox"
+    </div>
+    <div>
+        <input type="submit" name="submit"
+    </div>
+
+        
+   </form>
+    
+</body>
+</html>
