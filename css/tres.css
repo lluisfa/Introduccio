@@ -16,16 +16,26 @@ td{
     height: 100px;
 }
 
-.vertical{
+.abaix{
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
 
-.horitzotal{
+.horitzotaldret{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
 
 .tot{
     border: 1px solid gray;
+}
+
+.adalt{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.horitzotalesquer{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
